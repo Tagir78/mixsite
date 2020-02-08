@@ -1,0 +1,447 @@
+*{
+	margin: 0px;
+	padding: 0px;
+    font-family: roboto, sans-serif;
+}
+
+body {
+	font-family: roboto, sans-serif;
+}
+
+header {
+	background: url(../img/headerbg2.jpg) no-repeat center top / cover;
+	padding-bottom: 80px;
+}
+
+
+.title {
+	padding-top: 230px;
+	font-family: 'roboto';
+	font-size: 55px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 405;
+	padding-left: 3%;
+}
+
+.best-stroy-brand {
+	font-family: 'roboto';
+	font-size: 55px;
+	color: #091a2a;
+	text-transform: uppercase;
+	position: center;
+	font-weight: bold;
+}
+
+.titleh1 {
+	font-family: 'roboto';
+	font-size: 40px;
+	color: #101010;
+	text-transform: uppercase;
+	padding-top: 30px;
+	font-weight: 400;
+	padding-left: 3%;
+}
+
+.button-header {
+	padding-left: 23%;
+	margin-top: -25px;
+}
+
+.btn-danger:hover {
+	background: rgba(0,0,0,0);
+	color: #fff;
+	box-shadow: inset 0 0 0 3px #fff;
+}
+
+.scroll {
+	display: flex;
+	justify-content: center;
+	padding-top: 90px;
+	padding-left: 28%;
+	opacity: 0.6;
+}
+
+.scroll:hover {
+	opacity: 1
+}
+
+/*секция О НАС */
+
+.about {
+	background-color: #e1e8ee;
+	padding-bottom: 60px;
+}
+
+
+.icon-about {
+	padding-top: 60px;
+}
+
+.titleAbout {
+	font-family: 'roboto';
+	font-size: 25px;
+	color: #49494a;
+	font-weight: 420;
+}
+
+.titleh3 {
+	font-family: 'roboto';
+	font-size: 22px;
+	color: #49494a;
+	font-weight: 400;
+	margin-top: 35px;
+}
+
+
+.title-h3 {
+	display: inline-block;
+	margin-top: 18px;
+	margin-left: 25px;
+}  
+
+.advantage { 
+	padding-top: 70px;
+}
+
+.medalEndinstr {
+	margin-top: -505px;
+}
+
+
+/*секция услуги*/
+
+
+.services {
+	background-color: #f5fefd;
+	padding-bottom: 60px;
+}
+
+
+.card-box {
+	padding-top: 40px;
+}
+
+
+.card {
+	background: #ecf3f9;
+	border-radius: 7px;
+}
+
+.card-img-top {
+	border-radius: 3px;
+}
+
+.card-box{
+    display: inline-block;
+    margin-left: 5%;
+}
+
+
+.card-title {
+	font-family: 'roboto';
+	font-size: 23px;
+	color: #49494a;
+	font-weight: 450;
+	padding: 5%;
+}
+
+.card-text {
+	font-family: 'roboto';
+	font-size: 18px;
+	color: #49494a;
+	font-weight: 400;
+	padding: 5%;
+	padding-top: 0px;
+}
+
+.card:hover {
+	background-color:  #ff8a8a;
+}
+
+
+/*free-consultation предствители компании секция*/
+.free-consultation {
+	background-color: #e1e8ee;
+	padding-bottom: 50px;
+}
+
+
+/* ТЕКСТ заголовка consultation*/
+.titleH2cons {
+	font-family: 'roboto';
+	font-size: 35px;
+	color: #49494a;
+	font-weight: 410;
+	padding-top: 40px;
+	display: flex;
+	justify-content: center;
+}
+
+
+/*img concultation*/
+.cons-men {
+    height: 125px;
+    width: 145px;
+    border-radius: 10%;
+    margin-left: 31%;
+    margin-top: -50px;
+}
+
+
+.card-consultation {
+	margin-top: 160px!important;
+	border-radius: 6%;
+	background: #f7f7f7;
+}
+
+.card-consultation:hover {
+    background-color: #fff;
+}
+
+.job-men {
+	font-family: 'roboto';
+	font-size: 27px;
+	color: #49494a;
+	font-weight: 420;
+	display: flex;
+	justify-content: center;
+	margin-top: -20px;
+	text-transform: initial;
+}
+
+.textVspan {
+	font-family: 'roboto';
+	font-size: 18px;
+	color: #49494a;
+	font-weight: 410;
+	display: flex;
+	justify-content: center;
+	margin-top: -10px;
+}
+
+.Opisanie {
+	font-family: 'roboto';
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+
+.col-btn {
+	padding-left: 37%;
+} 
+
+
+.box-card {
+	display: flex;
+	justify-content: center;
+}
+
+.card-consultation {
+	margin: 30px;
+}
+
+
+/*секция наши работы*/
+.gallery {
+	background-color: #f5fefd;
+	padding-bottom: 50px;
+}
+
+.box-gallery {
+	padding-top: 30px;
+	padding: .5vw;
+	font-size: 0;
+	flex-wrap: wrap;
+	flex-direction: column;
+	flex-flow: row wrap;
+	display: flex;
+}
+
+.box-gallery div {
+	flex:auto;
+	width: 237px;
+	margin: .5vw;
+}
+
+.box-gallery img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*секция партнеры*/
+
+.partner {
+	background-color: #f5fefd;
+	padding-bottom: 30px;
+}
+
+.trxt-partner {
+	font-family: 'roboto';
+	font-size: 35px;
+	color: #49494a;
+	font-weight: 410;
+	display: flex;
+	justify-content: center;
+	padding-top: 25px;
+	padding-left: 10%;
+}
+
+/*cerusel*/
+.owl-carousel {
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+	padding-left: 10%;
+    
+}
+
+.img {
+    height: 100px;
+    width: 140px;
+}
+
+
+/*FOOTER*/
+footer {
+	background-color: #e1e8ee;
+	padding-bottom: 30px;
+}
+
+.contact-box {
+	display: flex;
+	justify-content: center;
+	margin-top: -260px;
+}
+
+.info-text {
+	margin-top: -10px;
+	display: inline-flex;
+	font-family: 'roboto';
+	font-size: 20px;
+	color: #49494a;
+	font-weight: 401;
+	margin: 20px;
+}
+
+.icon-info {
+	margin-top: 30px;
+}
+
+
+.box-2 {
+	display: flex;
+	justify-content: center;
+	margin-top: 0px;
+	padding-right: 14%;
+	margin-top: -15px;
+}
+
+.box-3 {
+	display: flex;
+	justify-content: center;
+	margin-top: 0px;
+	padding-right: 7%;
+	margin-top: -15px;
+}
+
+.icon-info-2 {
+	margin-top: -10px;
+}
+
+.footer-icons {
+	display: flex;
+	justify-content: flex-end;
+	font-size: 40px;
+	color: #ff4651;
+	margin-top: -150px;
+}
+
+.hi-icon2 {
+	margin: 7px;
+	color: #ff4651!important;
+}
+
+.hi-icon2:hover {
+    opacity: 0.6;
+}
+
+.coryrightspan {
+	font-family: 'roboto';
+	font-size: 17px;
+	color: #49494a;
+	font-weight: 400;
+	margin-top: 110px;
+	display: flex;
+}
+
+.indie-web {
+	font-family: 'roboto';
+	font-size: 18px;
+	color: #49494a;
+	font-weight: 410;
+	margin-top: -35px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+.indie-web:hover {
+	color: #ff4651;
+}
+
+
+.job-html {
+	padding-top: 150px;
+}
+
+
+.services-html {
+	padding-top: 130px;
+}
+
+.about-html {
+	padding-top: 80px;
+}
+
+
+/*стили для contact.html*/
+
+.contact-formSec {
+	background: #e1e8ee;
+	padding-bottom: 30px;
+}
+
+.contactForms {
+    padding-top: 40px;
+}
+
+input {
+	margin: 30px;
+}
+
+form {
+   background: #f5fefd;
+   padding-bottom: 30px;
+   padding-left: 20%; 
+}
+
+.form-check-label {
+	padding-top: 15px;
+	font-family: 'roboto';
+	font-size: 20px;
+	color: #49494a;
+	margin: 20px;
+}
+
+.form-check-input {
+	margin-top: 40px;
+	width: 20px;
+	height: 20px;
+}
+
+textarea {
+	padding-left: 20%;
+}
